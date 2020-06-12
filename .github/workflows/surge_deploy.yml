@@ -32,4 +32,4 @@ jobs:
     
     # Deploy Surge
     - name: Deploy React App to Surge
-      run: surge ./build musman97-expense-tracker-react.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build musman97-covid19-tracker-react.surge.sh --token ${{ secrets.SURGE_TOKEN }}
